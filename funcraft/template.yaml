@@ -1,0 +1,21 @@
+ROSTemplateFormatVersion: '2015-09-01'
+Transform: 'Aliyun::Serverless-2018-04-03'
+Resources:
+  funcraft: # service name
+    Type: 'Aliyun::Serverless::Service'
+    deply-larger-zip-then-expected: # function name
+      Type: 'Aliyun::Serverless::Function'
+      Properties:
+        Handler: index.handler
+        Runtime: nodejs12
+        CodeUri: './deply-larger-zip-then-expected/'
+        InstanceConcurrency: 100
+        Timeout: 60
+        EnvironmentVariables:
+          TZ: Asia/Shanghai
+      Events:
+        http: # trigger name
+          Type: HTTP # http trigger
+          Properties:
+            AuthType: ANONYMOUS
+            Methods: [ 'GET' ]

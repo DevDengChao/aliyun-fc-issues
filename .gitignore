@@ -1,3 +1,4 @@
 .idea
 **/.fun
 **/node_modules
+**/template.packaged.yml
