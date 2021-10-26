@@ -1,0 +1,5 @@
+# these files should be ignored when s deploy
+.fcignore
+e2e-test.yaml
+production.yaml
+yarn.lock

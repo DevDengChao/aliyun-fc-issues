@@ -1,0 +1,9 @@
+# these files should be ignored when s build
+.s
+docs
+test
+.funignore
+.gitignore
+*.gif
+*.md
+*.lock

@@ -1,0 +1,22 @@
+# https://github.com/devsapp/fc/blob/main/docs/Others/yaml.md
+edition: 1.0.0
+name: dummy-name
+access: default
+services:
+  default:
+    component: devsapp/fc
+    props:
+      region: cn-shenzhen
+      service:
+        name: dummy-service
+      function:
+        name: dummy-function
+        initializer: src/main.initializer
+        handler: src/main.handler
+#        runtime: nodejs12
+        runtime: custom
+        environmentVariables:
+          TZ: Asia/Shanghai
+        instanceConcurrency: 100
+        codeUri: ./
+
