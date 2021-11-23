@@ -1,0 +1,13 @@
+# https://github.com/devsapp/fc/blob/main/docs/Others/yaml.md
+edition: 1.0.0
+services:
+  default:
+    component: devsapp/fc
+    props:
+      service:
+        name: dummy-service
+      function:
+        name: dummy-function
+        handler: dummy
+        runtime: custom
+        codeUri: ./
