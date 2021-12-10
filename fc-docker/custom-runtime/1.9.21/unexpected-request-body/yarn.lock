@@ -7,10 +7,10 @@
   resolved "https://registry.npmmirror.com/@serverless-devs/core/download/@serverless-devs/core-0.1.14.tgz#0c9c9e74d91ad09217aa974790bedd19609d84cf"
   integrity sha512-4bIiEsx8OHYuMdu1ZbEJhD6sSRiAV/pzxop1fIA8UUNbREQG/PflT39bBZJjnQFan9d4v6U0l4Crofs2RNobeA==
 
-"@serverless-devs/s@^2.0.94":
-  version "2.0.94"
-  resolved "https://registry.npmmirror.com/@serverless-devs/s/download/@serverless-devs/s-2.0.94.tgz#fffecff9152fb9757328e957856f646929442c68"
-  integrity sha512-EFkhx1CGUpwCys4W7wHpMBFeoQJFOI2nI01IVqaS5bpVqWt1ySt0SM0zGzUrlSMgY327Kqgxkl3/anNL8CZ8QQ==
+"@serverless-devs/s@^2.0.96":
+  version "2.0.96"
+  resolved "https://registry.npmmirror.com/@serverless-devs/s/download/@serverless-devs/s-2.0.96.tgz#e1b675a68dcf9fb2c5e2550509e8f57f9da8e3a0"
+  integrity sha512-OJ0Dv0Go4kwZltGFc2alr2nms1qYQE+mQC4J1BOeADuECygCIbPisBC9+5tuOljLxcQ3UQoGzSymiwwJ/pV1ow==
   dependencies:
     "@serverless-devs/core" latest
 
